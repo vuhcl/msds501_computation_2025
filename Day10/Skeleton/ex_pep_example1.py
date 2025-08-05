@@ -1,10 +1,12 @@
 # see what is wrong with this code and update to follow pep8
 import os
+
 import numpy as np
 
 
 def function():
 	print(os.random())
+
 
 class School():
 	"""
@@ -15,4 +17,4 @@ class School():
 		self.type = type
 	
 	def return_type(self):
-		return self.type # return its type attribute
+		return self.type  # return its type attribute
